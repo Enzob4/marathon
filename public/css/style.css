@@ -1,0 +1,402 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#navbar{
+    padding: 2rem 1rem;
+    font-size: 1.25rem;
+    color: #000;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 9px 30px 12px rgba(0,0,0,0.3); 
+    box-shadow: 0px 9px 30px 12px rgba(0,0,0,0.2);
+    
+}
+
+#logo{
+    width: 25%
+}
+
+
+#searchbar{
+        background: rgba(255,255,255,0.4);
+        border: none;
+        margin: 0 auto;
+        padding: 10px;
+        color: #000;
+        box-shadow: 0 2px 5px 1px rgba(0,0,0,0.2);
+}
+
+#searchbutton{
+
+    color: #000;
+    border-color: #000;
+}
+
+#categories{
+    color: #000;
+}
+
+#categories:hover{
+    color: #63428C;
+}
+
+#nav{
+    max-width: 1200px;
+    align-items: center;
+}
+
+.research{
+    margin: 20px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: thin;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 30rem;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.22);
+    text-align:center;
+}
+
+#search{
+    margin: 2rem;
+}
+
+#cardserie{
+    padding: 0rem;
+    background-color: #44295e;
+    border-radius: 12px;
+    margin: 3rem;
+    display: flex;
+}
+
+#afficheserie{
+padding: 0px;
+max-width: 13rem;
+}
+
+
+#titreserie{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+#infoarticle{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+#infoserie p{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.align-middle a{
+    font-size: 1.15rem;
+    align-items: center;
+    
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-link{
+    color:#000
+}
+
+.titresection{
+    font-size: 1.05rem;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.titresection2{
+    font-size: 1.05rem;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.affichetop{
+    text-align: center;
+}
+
+.affichetop img{
+    border-radius: 12px;
+}
+
+.affiches{
+    margin-top: 30px;
+}
+
+.section{
+    background-color: #44295e;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.22);
+}
+
+.section2{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.titreavis{
+    font-size: 1.05rem;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#formlogin{
+    margin-top: 2rem;
+}
+
+#boutonlogin{
+    background-color: #63428C;
+    border: none;
+}
+#boutonlogin:hover{
+    background-color: #44295e;
+    border: none;
+}
+
+#cardlogin{
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.22);
+}
+
+#lienregister{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#lienregister a{
+    color: #000;
+    font-weight: bold;
+}
+
+#sectionsearch{
+    background-color: #44295e;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.22);
+    
+}
+
+#sectionsearch2{
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#notfound{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#imagenotfound{
+    width: 40rem;
+}
+
+#textnotfound{
+    margin-top: 2rem;
+    
+}
+#textnotfound a{
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.allseries{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.allseries img{
+    border-radius: 12px;
+}
+
+.avis{
+padding-bottom: 5px;
+
+}
+
+#serie{
+    display: flex;
+}
+
+#commentaires{
+        padding: 0rem;
+        margin-top: 3rem;
+        margin-right: 3rem;
+
+
+
+
+}
+
+#episode{
+    display: flex;
+    margin: 3rem;
+}
+
+#infoepisode{
+    margin-left: 1rem;
+}
+
+#titreepisode{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#boutonvu{
+background-color: #fff;
+border-radius: 8px;
+border-color: #63428C;
+}
+
+/* xx */
+
+#boutonvu{
+    background-color: #fff;
+    color: #63428C;
+    border-radius: 8px;
+    border-color: #63428C;
+    }
+
+    #boutonvu:hover{
+        background-color: #fff;
+        color: #63428C;
+        border-radius: 8px;
+        border-color: #63428C;
+        box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.20);
+        }
+
+    #boutondejavu{
+        background-color: #c6c6c6;
+        border-radius: 8px;
+        border-color: #c6c6c6;
+
+        }
+
+#articleview{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+}        
+.article{
+    max-width: 40rem;
+    margin: 1rem!important;
+}
+#articlemain{
+    display: flex;
+}
+
+#articlesredaction{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+#introarticle{
+    text-align: justify;
+}
+
+#lienversarticle{
+    color: white;
+    text-decoration: none;
+}
+
+.video{
+display: block!important;
+}
+
+.titrevideo{
+    text-align: center;
+    font-size: 0.9rem!important;
+}
+
+#videoplayer{
+    width: -webkit-fill-available;
+    margin-top: 0.5rem;
+}
+@media only screen and (max-width: 600px) {
+    #logo{
+        width: 65%
+    }
+
+    .research{
+        margin: 20px;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: thin;
+        line-height: 1.5;
+        color: #000;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 0px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        width: 20rem;
+        box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.22);
+        text-align:center;
+    }
+
+    .affichetop{
+        margin: 20px;
+    }
+
+    #imagenotfound{
+        width: 20rem;
+    }
+
+    #notfound{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    #cardserie{
+        display: table-caption;
+    }
+
+    #articlemain{
+        display: flex;
+    }
+
+    .affichearticleresp{
+        width: -webkit-fill-available;
+    }
+.article{
+     max-width: 11rem;
+    margin: 0.5rem!important;
+}
+    .videos{
+        display: grid!important;
+}
+    
+}
